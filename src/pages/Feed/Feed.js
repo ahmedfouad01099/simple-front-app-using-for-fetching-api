@@ -118,6 +118,16 @@ class Feed extends Component {
 
     fetch(url, {
       method: method,
+      // headers: { 
+      //   "Content-Type": "application/json",
+      // },
+      // in receving file upload we cannot use content-type of application/json
+      // so we will use
+
+      // body: JSON.stringify({
+      //   title: postData.title,
+      //   content: postData.content,
+      // }),
       body: formData
     })
       .then((res) => {
