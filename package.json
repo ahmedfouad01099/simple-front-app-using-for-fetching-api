@@ -1,12 +1,13 @@
 {
-  "name": "node-complete-social-network-prep",
+  "name": "blog-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.0.4"
+    "react-scripts": "2.0.4",
+    "socket.io-client": "^3.0.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -22,5 +23,18 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "description": "using react.js and socket.io-client for real time actions",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmedfouad01099/simple-front-app-using-for-fetching-api.git"
+  },
+  "author": "Ahmed Fouad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahmedfouad01099/simple-front-app-using-for-fetching-api/issues"
+  },
+  "homepage": "https://github.com/ahmedfouad01099/simple-front-app-using-for-fetching-api#readme"
 }
